@@ -25,12 +25,6 @@ class Info extends Component {
                 additional shapes? What happens if we decide we want the
                 functionality to change for each effect? This would potentially
                 lead to a maintenance nightmare.
-                <p>
-                    Explore the source at{" "}
-                    <a href={githubLink} target="_blank">
-                        {githubLink}
-                    </a>
-                </p>
             </div>
         );
     }

@@ -8,6 +8,7 @@
 
 # production
 /build
+READMEBACKUP.md
 
 # misc
 .DS_Store
