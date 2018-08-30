@@ -1,0 +1,115 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+}
+.text-left {
+    text-align: left;
+}
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.testItem1 {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+    color: #999999;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.nav li:hover {
+    color: #ffffff;
+}
+.nav li.active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.mainInfoWrapper {
+    padding: 2em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.playground {
+    display: flex;
+    flex-direction: row;
+    min-height: calc(100vh - 180px);
+}
+
+.setup {
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 20%;
+}
+.setup label {
+    display: block;
+    font-size: 0.8em;
+}
+
+.setup select {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.results {
+    width: 80%;
+    position: relative;
+    border-left: 1px solid #000000;
+}
+/* BASE SHAPES */
+.square,
+.triangle,
+.diamond {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #999999;
+    border: 1px solid #888888;
+}
+.triangle {
+    border: none;
+    background: url("../img/triangle.png") center no-repeat;
+    background-size: contain;
+}
+.diamond {
+    border: none;
+    background: url("../img/diamond.png") center no-repeat;
+    background-size: contain;
+}
